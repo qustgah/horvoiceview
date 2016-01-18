@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.gah.widget.horvoiceview.MainActivity">
+    <com.gah.widget.horvoiceview.HorVoiceView
+        android:id="@+id/horvoiceview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:voiceLineColor="@color/horvoice_text_color"
+        app:voiceTextColor="@color/horvoice_text_color"/>
+    
+</android.support.design.widget.CoordinatorLayout>
